@@ -1,0 +1,114 @@
+CRITICAL - 2023-06-15 18:52:50 --> cal_days_in_month() expects exactly 3 arguments, 4 given
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(52): cal_days_in_month(0, '15', '06', '2023')
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasDiarias()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-15 18:53:15 --> cal_days_in_month() expects exactly 3 arguments, 4 given
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(52): cal_days_in_month(0, '15', '06', '2023')
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasDiarias()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-15 18:53:25 --> cal_days_in_month() expects exactly 3 arguments, 4 given
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(52): cal_days_in_month(0, '15', '06', '2023')
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasDiarias()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-15 18:53:52 --> cal_days_in_month(): Argument #1 ($calendar) must be a valid calendar ID
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(52): cal_days_in_month('15', '06', '2023')
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasDiarias()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-15 18:54:00 --> cal_days_in_month(): Argument #1 ($calendar) must be a valid calendar ID
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(52): cal_days_in_month('15', '06', '2023')
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasDiarias()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-15 18:57:35 --> Invalid date
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(52): cal_days_in_month(0, '15', '06')
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasDiarias()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-15 22:24:27 --> Undefined variable $totalVentas
+#0 C:\laragon\www\Cafeteria\app\Views\venta\listarventa.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\laragon\\www\\...', 85)
+#1 C:\laragon\www\Cafeteria\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Cafeteria\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\Cafeteria\system\Common.php(1089): CodeIgniter\View\View->render('venta/listarven...', Array, true)
+#4 C:\laragon\www\Cafeteria\app\Views\index.php(171): view('venta/listarven...')
+#5 C:\laragon\www\Cafeteria\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#6 C:\laragon\www\Cafeteria\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\laragon\www\Cafeteria\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#8 C:\laragon\www\Cafeteria\app\Controllers\Venta.php(159): view('index', Array)
+#9 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Venta->listarVenta()
+#10 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+#11 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-06-15 22:24:57 --> Undefined variable $totalVentas
+#0 C:\laragon\www\Cafeteria\app\Views\venta\listarventa.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\laragon\\www\\...', 84)
+#1 C:\laragon\www\Cafeteria\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Cafeteria\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\Cafeteria\system\Common.php(1089): CodeIgniter\View\View->render('venta/listarven...', Array, true)
+#4 C:\laragon\www\Cafeteria\app\Views\index.php(171): view('venta/listarven...')
+#5 C:\laragon\www\Cafeteria\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#6 C:\laragon\www\Cafeteria\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\laragon\www\Cafeteria\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#8 C:\laragon\www\Cafeteria\app\Controllers\Venta.php(159): view('index', Array)
+#9 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Venta->listarVenta()
+#10 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+#11 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-06-15 22:25:51 --> Unsupported operand types: int + array
+#0 C:\laragon\www\Cafeteria\system\View\View.php(210): include()
+#1 C:\laragon\www\Cafeteria\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\laragon\www\Cafeteria\system\Common.php(1089): CodeIgniter\View\View->render('venta/listarven...', Array, true)
+#3 C:\laragon\www\Cafeteria\app\Views\index.php(171): view('venta/listarven...')
+#4 C:\laragon\www\Cafeteria\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#5 C:\laragon\www\Cafeteria\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\laragon\www\Cafeteria\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#7 C:\laragon\www\Cafeteria\app\Controllers\Venta.php(159): view('index', Array)
+#8 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Venta->listarVenta()
+#9 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+#10 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-15 22:26:25 --> Unsupported operand types: int + string
+#0 C:\laragon\www\Cafeteria\system\View\View.php(210): include()
+#1 C:\laragon\www\Cafeteria\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\laragon\www\Cafeteria\system\Common.php(1089): CodeIgniter\View\View->render('venta/listarven...', Array, true)
+#3 C:\laragon\www\Cafeteria\app\Views\index.php(171): view('venta/listarven...')
+#4 C:\laragon\www\Cafeteria\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#5 C:\laragon\www\Cafeteria\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\laragon\www\Cafeteria\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#7 C:\laragon\www\Cafeteria\app\Controllers\Venta.php(159): view('index', Array)
+#8 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Venta->listarVenta()
+#9 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+#10 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-15 22:26:32 --> Unsupported operand types: int + string
+#0 C:\laragon\www\Cafeteria\system\View\View.php(210): include()
+#1 C:\laragon\www\Cafeteria\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\laragon\www\Cafeteria\system\Common.php(1089): CodeIgniter\View\View->render('venta/listarven...', Array, true)
+#3 C:\laragon\www\Cafeteria\app\Views\index.php(171): view('venta/listarven...')
+#4 C:\laragon\www\Cafeteria\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#5 C:\laragon\www\Cafeteria\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\laragon\www\Cafeteria\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#7 C:\laragon\www\Cafeteria\app\Controllers\Venta.php(159): view('index', Array)
+#8 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Venta->listarVenta()
+#9 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+#10 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}

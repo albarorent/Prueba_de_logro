@@ -1,0 +1,54 @@
+CRITICAL - 2022-06-30 12:49:14 --> Call to undefined method App\Models\UsuarioModel::getResultados
+#0 C:\xampp\htdocs\proyecto_ci\app\Controllers\Consultas.php(23): CodeIgniter\Model->__call('getResultados', Array)
+#1 C:\xampp\htdocs\proyecto_ci\system\CodeIgniter.php(832): App\Controllers\Consultas->index()
+#2 C:\xampp\htdocs\proyecto_ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consultas))
+#3 C:\xampp\htdocs\proyecto_ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\proyecto_ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-30 14:43:25 --> Undefined array key "id_post"
+#0 C:\xampp\htdocs\proyecto_ci\app\Views\post\post.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 57)
+#1 C:\xampp\htdocs\proyecto_ci\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\proyecto_ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\proyecto_ci\system\Common.php(1089): CodeIgniter\View\View->render('post/post', Array, true)
+#4 C:\xampp\htdocs\proyecto_ci\app\Views\index.php(257): view('post/post')
+#5 C:\xampp\htdocs\proyecto_ci\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proyecto_ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\proyecto_ci\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#8 C:\xampp\htdocs\proyecto_ci\app\Controllers\Post.php(34): view('index', Array)
+#9 C:\xampp\htdocs\proyecto_ci\system\CodeIgniter.php(832): App\Controllers\Post->index()
+#10 C:\xampp\htdocs\proyecto_ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#11 C:\xampp\htdocs\proyecto_ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\proyecto_ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-06-30 16:26:40 --> Undefined variable $data
+#0 C:\xampp\htdocs\proyecto_ci\app\Views\login\login.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\proyecto_ci\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\proyecto_ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\proyecto_ci\system\Common.php(1089): CodeIgniter\View\View->render('login/login', Array, true)
+#4 C:\xampp\htdocs\proyecto_ci\app\Controllers\Login.php(15): view('login/login')
+#5 C:\xampp\htdocs\proyecto_ci\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\proyecto_ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\proyecto_ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto_ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-30 16:38:32 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getPost
+#0 C:\xampp\htdocs\proyecto_ci\app\Controllers\Login.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\proyecto_ci\system\CodeIgniter.php(832): App\Controllers\Login->validacion_do()
+#2 C:\xampp\htdocs\proyecto_ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\proyecto_ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\proyecto_ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-30 16:38:59 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getPost
+#0 C:\xampp\htdocs\proyecto_ci\app\Controllers\Login.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\proyecto_ci\system\CodeIgniter.php(832): App\Controllers\Login->validacion_do()
+#2 C:\xampp\htdocs\proyecto_ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\proyecto_ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\proyecto_ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-30 16:40:44 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getPost
+#0 C:\xampp\htdocs\proyecto_ci\app\Controllers\Login.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\proyecto_ci\system\CodeIgniter.php(832): App\Controllers\Login->validacion_do()
+#2 C:\xampp\htdocs\proyecto_ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\proyecto_ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\proyecto_ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

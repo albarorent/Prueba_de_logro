@@ -1,0 +1,157 @@
+CRITICAL - 2022-11-07 16:58:10 --> syntax error, unexpected token "protected"
+#0 C:\xampp\htdocs\ProyectoClinica_ci\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('tipopersonal')
+#1 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('tipopersonal')
+#2 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ProyectoClinica_ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-07 16:58:51 --> Class "App\Controllers\TipoPersonalModel" not found
+#0 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(809): App\Controllers\TipoPersonal->__construct()
+#1 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ProyectoClinica_ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-11-07 16:59:24 --> Table 'blog.tipotrabajador' doesn't exist
+CRITICAL - 2022-11-07 16:59:24 --> Table 'blog.tipotrabajador' doesn't exist
+#0 C:\xampp\htdocs\ProyectoClinica_ci\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ProyectoClinica_ci\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ProyectoClinica_ci\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ProyectoClinica_ci\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ProyectoClinica_ci\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ProyectoClinica_ci\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ProyectoClinica_ci\app\Controllers\TipoPersonal.php(23): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(832): App\Controllers\TipoPersonal->index()
+#8 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TipoPersonal))
+#9 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ProyectoClinica_ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-11-07 16:59:25 --> Table 'blog.tipotrabajador' doesn't exist
+CRITICAL - 2022-11-07 16:59:25 --> Table 'blog.tipotrabajador' doesn't exist
+#0 C:\xampp\htdocs\ProyectoClinica_ci\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ProyectoClinica_ci\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ProyectoClinica_ci\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ProyectoClinica_ci\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ProyectoClinica_ci\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ProyectoClinica_ci\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ProyectoClinica_ci\app\Controllers\TipoPersonal.php(23): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(832): App\Controllers\TipoPersonal->index()
+#8 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TipoPersonal))
+#9 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ProyectoClinica_ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-07 17:01:23 --> syntax error, unexpected variable "$data"
+#0 C:\xampp\htdocs\ProyectoClinica_ci\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('tipopersonal')
+#1 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('tipopersonal')
+#2 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ProyectoClinica_ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-07 17:01:43 --> syntax error, unexpected token "return"
+#0 C:\xampp\htdocs\ProyectoClinica_ci\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('tipopersonal')
+#1 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('tipopersonal')
+#2 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ProyectoClinica_ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-07 17:01:44 --> syntax error, unexpected token "return"
+#0 C:\xampp\htdocs\ProyectoClinica_ci\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('tipopersonal')
+#1 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('tipopersonal')
+#2 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ProyectoClinica_ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-07 17:05:50 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\ProyectoClinica_ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\ProyectoClinica_ci\system\Common.php(1089): CodeIgniter\View\View->render('tipopersonal/ti...', Array, true)
+#2 C:\xampp\htdocs\ProyectoClinica_ci\app\Views\index.php(111): view('tipopersonal/ti...')
+#3 C:\xampp\htdocs\ProyectoClinica_ci\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ProyectoClinica_ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\ProyectoClinica_ci\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#6 C:\xampp\htdocs\ProyectoClinica_ci\app\Controllers\TipoPersonal.php(27): view('index', Array)
+#7 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(832): App\Controllers\TipoPersonal->index()
+#8 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TipoPersonal))
+#9 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ProyectoClinica_ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-07 17:06:04 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\ProyectoClinica_ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\ProyectoClinica_ci\system\Common.php(1089): CodeIgniter\View\View->render('tipopersonal/ti...', Array, true)
+#2 C:\xampp\htdocs\ProyectoClinica_ci\app\Views\index.php(111): view('tipopersonal/ti...')
+#3 C:\xampp\htdocs\ProyectoClinica_ci\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ProyectoClinica_ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\ProyectoClinica_ci\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#6 C:\xampp\htdocs\ProyectoClinica_ci\app\Controllers\TipoPersonal.php(27): view('index', Array)
+#7 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(832): App\Controllers\TipoPersonal->index()
+#8 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TipoPersonal))
+#9 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ProyectoClinica_ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-07 17:07:04 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\ProyectoClinica_ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\ProyectoClinica_ci\system\Common.php(1089): CodeIgniter\View\View->render('tipopersonal/ti...', Array, true)
+#2 C:\xampp\htdocs\ProyectoClinica_ci\app\Views\index.php(111): view('tipopersonal/ti...')
+#3 C:\xampp\htdocs\ProyectoClinica_ci\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ProyectoClinica_ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\ProyectoClinica_ci\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#6 C:\xampp\htdocs\ProyectoClinica_ci\app\Controllers\TipoPersonal.php(27): view('index', Array)
+#7 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(832): App\Controllers\TipoPersonal->index()
+#8 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TipoPersonal))
+#9 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ProyectoClinica_ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-07 17:07:05 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\ProyectoClinica_ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\ProyectoClinica_ci\system\Common.php(1089): CodeIgniter\View\View->render('tipopersonal/ti...', Array, true)
+#2 C:\xampp\htdocs\ProyectoClinica_ci\app\Views\index.php(111): view('tipopersonal/ti...')
+#3 C:\xampp\htdocs\ProyectoClinica_ci\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ProyectoClinica_ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\ProyectoClinica_ci\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#6 C:\xampp\htdocs\ProyectoClinica_ci\app\Controllers\TipoPersonal.php(27): view('index', Array)
+#7 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(832): App\Controllers\TipoPersonal->index()
+#8 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TipoPersonal))
+#9 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ProyectoClinica_ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-07 17:07:43 --> Undefined variable $cont
+#0 C:\xampp\htdocs\ProyectoClinica_ci\app\Views\tipopersonal\tipopersonal.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\ProyectoClinica_ci\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ProyectoClinica_ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ProyectoClinica_ci\system\Common.php(1089): CodeIgniter\View\View->render('tipopersonal/ti...', Array, true)
+#4 C:\xampp\htdocs\ProyectoClinica_ci\app\Views\index.php(111): view('tipopersonal/ti...')
+#5 C:\xampp\htdocs\ProyectoClinica_ci\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ProyectoClinica_ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\ProyectoClinica_ci\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#8 C:\xampp\htdocs\ProyectoClinica_ci\app\Controllers\TipoPersonal.php(27): view('index', Array)
+#9 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(832): App\Controllers\TipoPersonal->index()
+#10 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TipoPersonal))
+#11 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ProyectoClinica_ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-11-07 17:09:28 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\ProyectoClinica_ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\ProyectoClinica_ci\system\Common.php(1089): CodeIgniter\View\View->render('tipopersonal/ti...', Array, true)
+#2 C:\xampp\htdocs\ProyectoClinica_ci\app\Views\index.php(111): view('tipopersonal/ti...')
+#3 C:\xampp\htdocs\ProyectoClinica_ci\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ProyectoClinica_ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\ProyectoClinica_ci\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#6 C:\xampp\htdocs\ProyectoClinica_ci\app\Controllers\TipoPersonal.php(27): view('index', Array)
+#7 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(832): App\Controllers\TipoPersonal->index()
+#8 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TipoPersonal))
+#9 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ProyectoClinica_ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-07 17:11:25 --> Undefined variable $tipopersonal
+#0 C:\xampp\htdocs\ProyectoClinica_ci\app\Views\tipopersonal\tipopersonal.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\ProyectoClinica_ci\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ProyectoClinica_ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ProyectoClinica_ci\system\Common.php(1089): CodeIgniter\View\View->render('tipopersonal/ti...', Array, true)
+#4 C:\xampp\htdocs\ProyectoClinica_ci\app\Views\index.php(111): view('tipopersonal/ti...')
+#5 C:\xampp\htdocs\ProyectoClinica_ci\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ProyectoClinica_ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\ProyectoClinica_ci\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#8 C:\xampp\htdocs\ProyectoClinica_ci\app\Controllers\TipoPersonal.php(27): view('index', Array)
+#9 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(832): App\Controllers\TipoPersonal->index()
+#10 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TipoPersonal))
+#11 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ProyectoClinica_ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}

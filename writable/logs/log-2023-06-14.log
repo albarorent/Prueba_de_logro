@@ -1,0 +1,666 @@
+ERROR - 2023-06-14 18:03:02 --> Unknown column 'venta.tipopago' in 'field list'
+CRITICAL - 2023-06-14 18:03:02 --> Unknown column 'venta.tipopago' in 'field list'
+#0 C:\laragon\www\Cafeteria\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `venta`....', 0)
+#1 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `venta`....')
+#2 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `venta`....')
+#3 C:\laragon\www\Cafeteria\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `venta`....', Array, false)
+#4 C:\laragon\www\Cafeteria\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Cafeteria\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Cafeteria\app\Models\VentaModel.php(109): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(50): App\Models\VentaModel->selectPagosMes('06', '2023')
+#8 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->tipoPagoMes()
+#9 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#10 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-06-14 18:03:06 --> Unknown column 'venta.tipopago' in 'field list'
+CRITICAL - 2023-06-14 18:03:06 --> Unknown column 'venta.tipopago' in 'field list'
+#0 C:\laragon\www\Cafeteria\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `venta`....', 0)
+#1 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `venta`....')
+#2 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `venta`....')
+#3 C:\laragon\www\Cafeteria\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `venta`....', Array, false)
+#4 C:\laragon\www\Cafeteria\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Cafeteria\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Cafeteria\app\Models\VentaModel.php(109): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(50): App\Models\VentaModel->selectPagosMes('06', '2023')
+#8 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->tipoPagoMes()
+#9 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#10 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-06-14 18:03:06 --> Unknown column 'venta.tipopago' in 'field list'
+CRITICAL - 2023-06-14 18:03:06 --> Unknown column 'venta.tipopago' in 'field list'
+#0 C:\laragon\www\Cafeteria\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `venta`....', 0)
+#1 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `venta`....')
+#2 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `venta`....')
+#3 C:\laragon\www\Cafeteria\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `venta`....', Array, false)
+#4 C:\laragon\www\Cafeteria\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Cafeteria\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Cafeteria\app\Models\VentaModel.php(109): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(50): App\Models\VentaModel->selectPagosMes('06', '2023')
+#8 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->tipoPagoMes()
+#9 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#10 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-06-14 18:03:46 --> Unknown column 'venta.tipopago' in 'field list'
+CRITICAL - 2023-06-14 18:03:46 --> Unknown column 'venta.tipopago' in 'field list'
+#0 C:\laragon\www\Cafeteria\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `venta`....', 0)
+#1 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `venta`....')
+#2 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `venta`....')
+#3 C:\laragon\www\Cafeteria\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `venta`....', Array, false)
+#4 C:\laragon\www\Cafeteria\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Cafeteria\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Cafeteria\app\Models\VentaModel.php(109): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(50): App\Models\VentaModel->selectPagosMes('06', '2023')
+#8 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->tipoPagoMes()
+#9 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#10 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-14 18:12:23 --> Undefined array key "fecha"
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\laragon\\www\\...', 46)
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->tipoPagoMes()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-14 18:12:26 --> Undefined array key "fecha"
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\laragon\\www\\...', 46)
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->tipoPagoMes()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-14 18:12:28 --> Undefined array key "fecha"
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\laragon\\www\\...', 46)
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->tipoPagoMes()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-14 18:12:28 --> Undefined array key "fecha"
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\laragon\\www\\...', 46)
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->tipoPagoMes()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-14 18:12:32 --> Undefined array key "fecha"
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\laragon\\www\\...', 66)
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasMes()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-14 18:12:32 --> Undefined array key "fecha"
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\laragon\\www\\...', 66)
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasMes()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-06-14 18:18:12 --> Unknown column 'venta.tipopago' in 'field list'
+CRITICAL - 2023-06-14 18:18:13 --> Unknown column 'venta.tipopago' in 'field list'
+#0 C:\laragon\www\Cafeteria\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `venta`....', 0)
+#1 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `venta`....')
+#2 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `venta`....')
+#3 C:\laragon\www\Cafeteria\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `venta`....', Array, false)
+#4 C:\laragon\www\Cafeteria\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Cafeteria\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Cafeteria\app\Models\VentaModel.php(109): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(50): App\Models\VentaModel->selectPagosMes('06', '2023')
+#8 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->tipoPagoMes()
+#9 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#10 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-06-14 18:19:55 --> Unknown column 'venta.tipopago' in 'field list'
+CRITICAL - 2023-06-14 18:19:55 --> Unknown column 'venta.tipopago' in 'field list'
+#0 C:\laragon\www\Cafeteria\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `venta`....', 0)
+#1 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `venta`....')
+#2 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `venta`....')
+#3 C:\laragon\www\Cafeteria\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `venta`....', Array, false)
+#4 C:\laragon\www\Cafeteria\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Cafeteria\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Cafeteria\app\Models\VentaModel.php(109): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(50): App\Models\VentaModel->selectPagosMes('06', '2023')
+#8 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->tipoPagoMes()
+#9 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#10 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-06-14 18:21:03 --> Unknown column 'venta.tipopago' in 'field list'
+CRITICAL - 2023-06-14 18:21:03 --> Unknown column 'venta.tipopago' in 'field list'
+#0 C:\laragon\www\Cafeteria\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `venta`....', 0)
+#1 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `venta`....')
+#2 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `venta`....')
+#3 C:\laragon\www\Cafeteria\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `venta`....', Array, false)
+#4 C:\laragon\www\Cafeteria\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Cafeteria\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Cafeteria\app\Models\VentaModel.php(109): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(50): App\Models\VentaModel->selectPagosMes('06', '2023')
+#8 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->tipoPagoMes()
+#9 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#10 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-06-14 18:21:03 --> Unknown column 'venta.tipopago' in 'field list'
+CRITICAL - 2023-06-14 18:21:03 --> Unknown column 'venta.tipopago' in 'field list'
+#0 C:\laragon\www\Cafeteria\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `venta`....', 0)
+#1 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `venta`....')
+#2 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `venta`....')
+#3 C:\laragon\www\Cafeteria\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `venta`....', Array, false)
+#4 C:\laragon\www\Cafeteria\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Cafeteria\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Cafeteria\app\Models\VentaModel.php(109): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(50): App\Models\VentaModel->selectPagosMes('06', '2023')
+#8 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->tipoPagoMes()
+#9 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#10 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-06-14 18:21:19 --> Unknown column 'venta.tipopago' in 'field list'
+CRITICAL - 2023-06-14 18:21:19 --> Unknown column 'venta.tipopago' in 'field list'
+#0 C:\laragon\www\Cafeteria\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `venta`....', 0)
+#1 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `venta`....')
+#2 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `venta`....')
+#3 C:\laragon\www\Cafeteria\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `venta`....', Array, false)
+#4 C:\laragon\www\Cafeteria\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Cafeteria\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Cafeteria\app\Models\VentaModel.php(109): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(50): App\Models\VentaModel->selectPagosMes('06', '2023')
+#8 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->tipoPagoMes()
+#9 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#10 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-06-14 18:22:10 --> Unknown column 'venta.tipopago' in 'field list'
+CRITICAL - 2023-06-14 18:22:10 --> Unknown column 'venta.tipopago' in 'field list'
+#0 C:\laragon\www\Cafeteria\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `venta`....', 0)
+#1 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `venta`....')
+#2 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `venta`....')
+#3 C:\laragon\www\Cafeteria\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `venta`....', Array, false)
+#4 C:\laragon\www\Cafeteria\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Cafeteria\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Cafeteria\app\Models\VentaModel.php(109): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(50): App\Models\VentaModel->selectPagosMes('06', '2023')
+#8 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->tipoPagoMes()
+#9 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#10 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-06-14 18:22:11 --> Unknown column 'venta.tipopago' in 'field list'
+CRITICAL - 2023-06-14 18:22:11 --> Unknown column 'venta.tipopago' in 'field list'
+#0 C:\laragon\www\Cafeteria\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `venta`....', 0)
+#1 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `venta`....')
+#2 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `venta`....')
+#3 C:\laragon\www\Cafeteria\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `venta`....', Array, false)
+#4 C:\laragon\www\Cafeteria\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Cafeteria\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Cafeteria\app\Models\VentaModel.php(109): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(50): App\Models\VentaModel->selectPagosMes('06', '2023')
+#8 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->tipoPagoMes()
+#9 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#10 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-06-14 18:23:07 --> Unknown column 'venta.tipopago' in 'field list'
+CRITICAL - 2023-06-14 18:23:07 --> Unknown column 'venta.tipopago' in 'field list'
+#0 C:\laragon\www\Cafeteria\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `venta`....', 0)
+#1 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `venta`....')
+#2 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `venta`....')
+#3 C:\laragon\www\Cafeteria\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `venta`....', Array, false)
+#4 C:\laragon\www\Cafeteria\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Cafeteria\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Cafeteria\app\Models\VentaModel.php(109): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(50): App\Models\VentaModel->selectPagosMes('06', '2023')
+#8 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->tipoPagoMes()
+#9 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#10 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-06-14 18:28:07 --> Unknown column 'venta.tipopago' in 'field list'
+CRITICAL - 2023-06-14 18:28:07 --> Unknown column 'venta.tipopago' in 'field list'
+#0 C:\laragon\www\Cafeteria\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `venta`....', 0)
+#1 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `venta`....')
+#2 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `venta`....')
+#3 C:\laragon\www\Cafeteria\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `venta`....', Array, false)
+#4 C:\laragon\www\Cafeteria\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Cafeteria\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Cafeteria\app\Models\VentaModel.php(109): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(50): App\Models\VentaModel->selectPagosMes('06', '2023')
+#8 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->tipoPagoMes()
+#9 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#10 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-06-14 18:28:09 --> Unknown column 'venta.tipopago' in 'field list'
+CRITICAL - 2023-06-14 18:28:09 --> Unknown column 'venta.tipopago' in 'field list'
+#0 C:\laragon\www\Cafeteria\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `venta`....', 0)
+#1 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `venta`....')
+#2 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `venta`....')
+#3 C:\laragon\www\Cafeteria\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `venta`....', Array, false)
+#4 C:\laragon\www\Cafeteria\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Cafeteria\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Cafeteria\app\Models\VentaModel.php(109): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(50): App\Models\VentaModel->selectPagosMes('06', '2023')
+#8 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->tipoPagoMes()
+#9 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#10 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-06-14 18:28:10 --> Unknown column 'venta.tipopago' in 'field list'
+CRITICAL - 2023-06-14 18:28:10 --> Unknown column 'venta.tipopago' in 'field list'
+#0 C:\laragon\www\Cafeteria\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `venta`....', 0)
+#1 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `venta`....')
+#2 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `venta`....')
+#3 C:\laragon\www\Cafeteria\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `venta`....', Array, false)
+#4 C:\laragon\www\Cafeteria\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Cafeteria\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Cafeteria\app\Models\VentaModel.php(109): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(50): App\Models\VentaModel->selectPagosMes('06', '2023')
+#8 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->tipoPagoMes()
+#9 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#10 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-06-14 18:30:31 --> Unknown column 'venta.tipopago' in 'field list'
+CRITICAL - 2023-06-14 18:30:31 --> Unknown column 'venta.tipopago' in 'field list'
+#0 C:\laragon\www\Cafeteria\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `venta`....', 0)
+#1 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `venta`....')
+#2 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `venta`....')
+#3 C:\laragon\www\Cafeteria\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `venta`....', Array, false)
+#4 C:\laragon\www\Cafeteria\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Cafeteria\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Cafeteria\app\Models\VentaModel.php(109): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(50): App\Models\VentaModel->selectPagosMes('06', '2023')
+#8 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->tipoPagoMes()
+#9 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#10 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-06-14 18:31:36 --> Unknown column 'venta.tipopago' in 'field list'
+CRITICAL - 2023-06-14 18:31:36 --> Unknown column 'venta.tipopago' in 'field list'
+#0 C:\laragon\www\Cafeteria\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `venta`....', 0)
+#1 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `venta`....')
+#2 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `venta`....')
+#3 C:\laragon\www\Cafeteria\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `venta`....', Array, false)
+#4 C:\laragon\www\Cafeteria\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Cafeteria\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Cafeteria\app\Models\VentaModel.php(109): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(50): App\Models\VentaModel->selectPagosMes('06', '2023')
+#8 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->tipoPagoMes()
+#9 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#10 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-06-14 18:31:39 --> Unknown column 'venta.tipopago' in 'field list'
+CRITICAL - 2023-06-14 18:31:39 --> Unknown column 'venta.tipopago' in 'field list'
+#0 C:\laragon\www\Cafeteria\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `venta`....', 0)
+#1 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `venta`....')
+#2 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `venta`....')
+#3 C:\laragon\www\Cafeteria\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `venta`....', Array, false)
+#4 C:\laragon\www\Cafeteria\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Cafeteria\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Cafeteria\app\Models\VentaModel.php(109): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(50): App\Models\VentaModel->selectPagosMes('06', '2023')
+#8 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->tipoPagoMes()
+#9 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#10 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-06-14 18:31:45 --> Unknown column 'venta.tipopago' in 'field list'
+CRITICAL - 2023-06-14 18:31:45 --> Unknown column 'venta.tipopago' in 'field list'
+#0 C:\laragon\www\Cafeteria\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `venta`....', 0)
+#1 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `venta`....')
+#2 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `venta`....')
+#3 C:\laragon\www\Cafeteria\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `venta`....', Array, false)
+#4 C:\laragon\www\Cafeteria\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Cafeteria\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Cafeteria\app\Models\VentaModel.php(109): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(50): App\Models\VentaModel->selectPagosMes('06', '2023')
+#8 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->tipoPagoMes()
+#9 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#10 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-06-14 18:36:52 --> Unknown column 'venta.tipopago' in 'field list'
+CRITICAL - 2023-06-14 18:36:52 --> Unknown column 'venta.tipopago' in 'field list'
+#0 C:\laragon\www\Cafeteria\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `venta`....', 0)
+#1 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `venta`....')
+#2 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `venta`....')
+#3 C:\laragon\www\Cafeteria\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `venta`....', Array, false)
+#4 C:\laragon\www\Cafeteria\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Cafeteria\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Cafeteria\app\Models\VentaModel.php(109): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(50): App\Models\VentaModel->selectPagosMes('06', '2023')
+#8 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasDiarias()
+#9 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#10 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-06-14 18:36:53 --> Unknown column 'venta.tipopago' in 'field list'
+CRITICAL - 2023-06-14 18:36:53 --> Unknown column 'venta.tipopago' in 'field list'
+#0 C:\laragon\www\Cafeteria\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `venta`....', 0)
+#1 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `venta`....')
+#2 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `venta`....')
+#3 C:\laragon\www\Cafeteria\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `venta`....', Array, false)
+#4 C:\laragon\www\Cafeteria\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Cafeteria\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Cafeteria\app\Models\VentaModel.php(109): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(50): App\Models\VentaModel->selectPagosMes('06', '2023')
+#8 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasDiarias()
+#9 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#10 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-06-14 18:37:12 --> Unknown column 'venta.tipopago' in 'field list'
+CRITICAL - 2023-06-14 18:37:12 --> Unknown column 'venta.tipopago' in 'field list'
+#0 C:\laragon\www\Cafeteria\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `venta`....', 0)
+#1 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `venta`....')
+#2 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `venta`....')
+#3 C:\laragon\www\Cafeteria\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `venta`....', Array, false)
+#4 C:\laragon\www\Cafeteria\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Cafeteria\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Cafeteria\app\Models\VentaModel.php(109): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(50): App\Models\VentaModel->selectPagosMes('06', '2023')
+#8 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasDiarias()
+#9 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#10 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-14 18:45:51 --> cal_days_in_month() expects exactly 3 arguments, 4 given
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(51): cal_days_in_month(0, '06', '2023', '06')
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasDiarias()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-14 18:45:53 --> cal_days_in_month() expects exactly 3 arguments, 4 given
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(51): cal_days_in_month(0, '06', '2023', '06')
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasDiarias()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-14 18:48:54 --> Invalid date
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(51): cal_days_in_month(0, '14', '06')
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasDiarias()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-14 18:49:07 --> Invalid date
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(51): cal_days_in_month(0, '14', '06')
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasDiarias()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-14 18:49:19 --> Invalid date
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(51): cal_days_in_month(0, '14', '06')
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasDiarias()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-14 18:49:21 --> Invalid date
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(51): cal_days_in_month(0, '14', '06')
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasDiarias()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-14 18:50:10 --> Invalid date
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(51): cal_days_in_month(0, '14', '06')
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasDiarias()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-14 18:50:12 --> Invalid date
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(51): cal_days_in_month(0, '14', '06')
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasDiarias()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-14 18:50:12 --> Invalid date
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(51): cal_days_in_month(0, '14', '06')
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasDiarias()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-14 18:50:15 --> Invalid date
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(51): cal_days_in_month(0, '216', '2023')
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasDiarias()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-14 18:50:24 --> Invalid date
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(84): cal_days_in_month(0, '216', '2023')
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasMes()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-14 18:51:36 --> Invalid date
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(51): cal_days_in_month(0, '14', '06')
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasDiarias()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-14 18:51:37 --> Invalid date
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(51): cal_days_in_month(0, '14', '06')
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasDiarias()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-14 18:51:43 --> Invalid date
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(84): cal_days_in_month(0, '145', '2023')
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasMes()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-14 18:51:44 --> Invalid date
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(84): cal_days_in_month(0, '145', '2023')
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasMes()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-14 18:51:48 --> Invalid date
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(84): cal_days_in_month(0, '145', '2023')
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasMes()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-14 18:51:54 --> Invalid date
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(84): cal_days_in_month(0, '145', '2023')
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasMes()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-14 18:51:55 --> Invalid date
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(84): cal_days_in_month(0, '145', '2023')
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasMes()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-14 18:52:11 --> Invalid date
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(51): cal_days_in_month(0, '14', '06')
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasDiarias()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-14 18:52:20 --> Invalid date
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(51): cal_days_in_month(0, '14', '06')
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasDiarias()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-14 18:52:56 --> Invalid date
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(51): cal_days_in_month(0, '14', '06')
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasDiarias()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-14 18:52:57 --> Invalid date
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(51): cal_days_in_month(0, '14', '06')
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasDiarias()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-14 18:53:43 --> Invalid date
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(51): cal_days_in_month(0, '2023', '06')
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasDiarias()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-14 18:53:46 --> Invalid date
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(51): cal_days_in_month(0, '2023', '06')
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasDiarias()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-14 18:56:12 --> Invalid date
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(51): cal_days_in_month(0, '2023', '06')
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasDiarias()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-14 18:56:13 --> Invalid date
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(51): cal_days_in_month(0, '2023', '06')
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasDiarias()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-14 18:58:09 --> Invalid date
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(52): cal_days_in_month(0, '2023', '06')
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasDiarias()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-14 18:59:35 --> Invalid date
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(85): cal_days_in_month(0, '2023', '06')
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasMes()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-14 19:00:29 --> Invalid date
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(85): cal_days_in_month(0, '2023', '06')
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasMes()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-14 19:01:41 --> Invalid date
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(85): cal_days_in_month(0, '14', '06')
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasMes()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-14 19:01:42 --> Invalid date
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(85): cal_days_in_month(0, '14', '06')
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasMes()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-14 19:02:37 --> Invalid date
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(52): cal_days_in_month(0, '14', '06')
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasDiarias()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-14 19:02:39 --> Invalid date
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(52): cal_days_in_month(0, '14', '06')
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasDiarias()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-14 19:04:52 --> Undefined array key 1
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\laragon\\www\\...', 49)
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasDiarias()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-14 19:04:53 --> Undefined array key 1
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\laragon\\www\\...', 49)
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasDiarias()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-14 19:05:14 --> Undefined array key 1
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\laragon\\www\\...', 49)
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasDiarias()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-14 19:05:15 --> Undefined array key 1
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\laragon\\www\\...', 49)
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasDiarias()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-14 19:08:11 --> Undefined array key 1
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\laragon\\www\\...', 49)
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasDiarias()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-14 19:08:12 --> Undefined array key 1
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\laragon\\www\\...', 49)
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasDiarias()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-14 19:08:13 --> Undefined array key 1
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\laragon\\www\\...', 49)
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasDiarias()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-14 22:33:56 --> cal_days_in_month() expects exactly 3 arguments, 4 given
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(52): cal_days_in_month(0, '14', '06', '2023')
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasDiarias()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-14 22:33:57 --> cal_days_in_month() expects exactly 3 arguments, 4 given
+#0 C:\laragon\www\Cafeteria\app\Controllers\Inicio.php(52): cal_days_in_month(0, '14', '06', '2023')
+#1 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Inicio->ventasDiarias()
+#2 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

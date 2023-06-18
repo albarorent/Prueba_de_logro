@@ -1,0 +1,15 @@
+CRITICAL - 2022-12-30 14:20:02 --> Undefined array key 0
+#0 C:\laragon\www\Cafeteria\app\Views\venta\reporteventa.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\laragon\\www\\...', 20)
+#1 C:\laragon\www\Cafeteria\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Cafeteria\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\Cafeteria\system\Common.php(1089): CodeIgniter\View\View->render('venta/reporteve...', Array, true)
+#4 C:\laragon\www\Cafeteria\app\Views\index.php(163): view('venta/reporteve...')
+#5 C:\laragon\www\Cafeteria\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#6 C:\laragon\www\Cafeteria\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\laragon\www\Cafeteria\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#8 C:\laragon\www\Cafeteria\app\Controllers\Venta.php(159): view('index', Array)
+#9 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Venta->verVenta('2')
+#10 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+#11 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}

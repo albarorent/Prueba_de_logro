@@ -1,0 +1,64 @@
+ERROR - 2023-05-24 01:10:30 --> Column 'subTotal' cannot be null
+CRITICAL - 2023-05-24 01:10:30 --> Column 'subTotal' cannot be null
+#0 C:\laragon\www\Cafeteria\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\laragon\www\Cafeteria\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\laragon\www\Cafeteria\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\Cafeteria\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\Cafeteria\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\Cafeteria\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\Cafeteria\app\Controllers\Venta.php(104): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Venta->registrarDatos()
+#10 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+#11 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-05-24 01:10:31 --> Column 'subTotal' cannot be null
+CRITICAL - 2023-05-24 01:10:31 --> Column 'subTotal' cannot be null
+#0 C:\laragon\www\Cafeteria\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\laragon\www\Cafeteria\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\laragon\www\Cafeteria\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\Cafeteria\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\Cafeteria\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\Cafeteria\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\Cafeteria\app\Controllers\Venta.php(104): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Venta->registrarDatos()
+#10 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+#11 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-05-24 01:10:46 --> Column 'subTotal' cannot be null
+CRITICAL - 2023-05-24 01:10:46 --> Column 'subTotal' cannot be null
+#0 C:\laragon\www\Cafeteria\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\laragon\www\Cafeteria\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\laragon\www\Cafeteria\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\Cafeteria\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\Cafeteria\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\Cafeteria\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\Cafeteria\app\Controllers\Venta.php(104): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Venta->registrarDatos()
+#10 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+#11 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-05-24 01:10:53 --> Column 'subTotal' cannot be null
+CRITICAL - 2023-05-24 01:10:53 --> Column 'subTotal' cannot be null
+#0 C:\laragon\www\Cafeteria\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\laragon\www\Cafeteria\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\laragon\www\Cafeteria\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\laragon\www\Cafeteria\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\Cafeteria\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\Cafeteria\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\Cafeteria\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\Cafeteria\app\Controllers\Venta.php(104): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\Cafeteria\system\CodeIgniter.php(832): App\Controllers\Venta->registrarDatos()
+#10 C:\laragon\www\Cafeteria\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venta))
+#11 C:\laragon\www\Cafeteria\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\Cafeteria\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}

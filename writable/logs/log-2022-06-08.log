@@ -1,0 +1,55 @@
+ERROR - 2022-06-08 08:23:33 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-06-08 08:23:33 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\proyecto_ci\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\proyecto_ci\app\Controllers\Inicio.php(16): CodeIgniter\Database\BaseConnection->query('select*from usu...')
+#2 C:\xampp\htdocs\proyecto_ci\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#3 C:\xampp\htdocs\proyecto_ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#4 C:\xampp\htdocs\proyecto_ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\proyecto_ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-08 08:23:58 --> Error connecting to the database: Unknown database 'blog1'
+CRITICAL - 2022-06-08 08:23:58 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'blog1'
+#0 C:\xampp\htdocs\proyecto_ci\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\proyecto_ci\app\Controllers\Inicio.php(16): CodeIgniter\Database\BaseConnection->query('select*from usu...')
+#2 C:\xampp\htdocs\proyecto_ci\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#3 C:\xampp\htdocs\proyecto_ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#4 C:\xampp\htdocs\proyecto_ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\proyecto_ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-08 08:42:56 --> Table 'blog.usuarios' doesn't exist
+CRITICAL - 2022-06-08 08:42:56 --> Table 'blog.usuarios' doesn't exist
+#0 C:\xampp\htdocs\proyecto_ci\system\Database\MySQLi\Connection.php(292): mysqli->query('select*from usu...', 0)
+#1 C:\xampp\htdocs\proyecto_ci\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select*from usu...')
+#2 C:\xampp\htdocs\proyecto_ci\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select*from usu...')
+#3 C:\xampp\htdocs\proyecto_ci\app\Controllers\Inicio.php(16): CodeIgniter\Database\BaseConnection->query('select*from usu...')
+#4 C:\xampp\htdocs\proyecto_ci\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#5 C:\xampp\htdocs\proyecto_ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#6 C:\xampp\htdocs\proyecto_ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\proyecto_ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-08 08:51:19 --> Undefined property: stdClass::$nombre
+#0 C:\xampp\htdocs\proyecto_ci\app\Controllers\Inicio.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\proyecto_ci\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#2 C:\xampp\htdocs\proyecto_ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\xampp\htdocs\proyecto_ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\proyecto_ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-08 08:54:00 --> Attempt to read property "id_usuario" on array
+#0 C:\xampp\htdocs\proyecto_ci\app\Controllers\Inicio.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\proyecto_ci\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#2 C:\xampp\htdocs\proyecto_ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#3 C:\xampp\htdocs\proyecto_ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\proyecto_ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-08 08:57:39 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, usuario given
+#0 C:\xampp\htdocs\proyecto_ci\system\Database\MySQLi\Result.php(148): mysqli_result->fetch_object('usuario')
+#1 C:\xampp\htdocs\proyecto_ci\system\Database\BaseResult.php(149): CodeIgniter\Database\MySQLi\Result->fetchObject('usuario')
+#2 C:\xampp\htdocs\proyecto_ci\system\Database\BaseResult.php(106): CodeIgniter\Database\BaseResult->getCustomResultObject('usuario')
+#3 C:\xampp\htdocs\proyecto_ci\app\Controllers\Inicio.php(17): CodeIgniter\Database\BaseResult->getResult('usuario')
+#4 C:\xampp\htdocs\proyecto_ci\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#5 C:\xampp\htdocs\proyecto_ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#6 C:\xampp\htdocs\proyecto_ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\proyecto_ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

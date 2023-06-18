@@ -1,0 +1,93 @@
+CRITICAL - 2022-11-10 14:41:23 --> Undefined variable $row
+#0 C:\xampp\htdocs\ProyectoClinica_ci\app\Views\personalmedico\personalmedico.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 99)
+#1 C:\xampp\htdocs\ProyectoClinica_ci\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ProyectoClinica_ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ProyectoClinica_ci\system\Common.php(1089): CodeIgniter\View\View->render('personalmedico/...', Array, true)
+#4 C:\xampp\htdocs\ProyectoClinica_ci\app\Views\index.php(134): view('personalmedico/...')
+#5 C:\xampp\htdocs\ProyectoClinica_ci\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ProyectoClinica_ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\ProyectoClinica_ci\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#8 C:\xampp\htdocs\ProyectoClinica_ci\app\Controllers\PersonalMedico.php(38): view('index', Array)
+#9 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(832): App\Controllers\PersonalMedico->index()
+#10 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersonalMedico))
+#11 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ProyectoClinica_ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-11-10 17:14:22 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-11-10 17:14:22 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 C:\xampp\htdocs\ProyectoClinica_ci\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ProyectoClinica_ci\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ProyectoClinica_ci\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ProyectoClinica_ci\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\ProyectoClinica_ci\app\Controllers\Login.php(33): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(832): App\Controllers\Login->validacion_do()
+#6 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ProyectoClinica_ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-10 17:14:37 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\ProyectoClinica_ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\ProyectoClinica_ci\system\Common.php(1089): CodeIgniter\View\View->render('personalmedico/...', Array, true)
+#2 C:\xampp\htdocs\ProyectoClinica_ci\app\Views\index.php(145): view('personalmedico/...')
+#3 C:\xampp\htdocs\ProyectoClinica_ci\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ProyectoClinica_ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\ProyectoClinica_ci\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#6 C:\xampp\htdocs\ProyectoClinica_ci\app\Controllers\PersonalMedico.php(41): view('index', Array)
+#7 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(832): App\Controllers\PersonalMedico->index()
+#8 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersonalMedico))
+#9 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ProyectoClinica_ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-10 17:15:11 --> syntax error, unexpected token "<<"
+#0 C:\xampp\htdocs\ProyectoClinica_ci\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('tipopersonal')
+#1 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('tipopersonal')
+#2 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ProyectoClinica_ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-10 17:16:31 --> syntax error, unexpected token "<<"
+#0 C:\xampp\htdocs\ProyectoClinica_ci\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('especialidad')
+#1 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('especialidad')
+#2 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ProyectoClinica_ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-10 17:16:33 --> syntax error, unexpected token "<<"
+#0 C:\xampp\htdocs\ProyectoClinica_ci\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('especialidad')
+#1 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('especialidad')
+#2 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ProyectoClinica_ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-10 17:16:53 --> Undefined variable $titulo
+#0 C:\xampp\htdocs\ProyectoClinica_ci\app\Views\usuarios\usuarios.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\ProyectoClinica_ci\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ProyectoClinica_ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ProyectoClinica_ci\system\Common.php(1089): CodeIgniter\View\View->render('usuarios/usuari...', Array, true)
+#4 C:\xampp\htdocs\ProyectoClinica_ci\app\Views\index.php(145): view('usuarios/usuari...')
+#5 C:\xampp\htdocs\ProyectoClinica_ci\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ProyectoClinica_ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\ProyectoClinica_ci\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#8 C:\xampp\htdocs\ProyectoClinica_ci\app\Controllers\Usuarios.php(25): view('index', Array)
+#9 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(832): App\Controllers\Usuarios->index()
+#10 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#11 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ProyectoClinica_ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-11-10 17:23:30 --> Column 'fechaNac' cannot be null
+CRITICAL - 2022-11-10 17:23:30 --> Column 'fechaNac' cannot be null
+#0 C:\xampp\htdocs\ProyectoClinica_ci\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\ProyectoClinica_ci\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\ProyectoClinica_ci\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\ProyectoClinica_ci\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\ProyectoClinica_ci\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ProyectoClinica_ci\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ProyectoClinica_ci\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\ProyectoClinica_ci\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\ProyectoClinica_ci\app\Controllers\Usuarios.php(74): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(832): App\Controllers\Usuarios->registrarDatos()
+#10 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#11 C:\xampp\htdocs\ProyectoClinica_ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ProyectoClinica_ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}

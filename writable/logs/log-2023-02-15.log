@@ -1,0 +1,2 @@
+ERROR - 2023-02-15 21:39:58 --> Cannot delete or update a parent row: a foreign key constraint fails (`db_cafe`.`venta`, CONSTRAINT `venta_ibfk_1` FOREIGN KEY (`idpersona`) REFERENCES `persona` (`idpersona`) ON DELETE RESTRICT ON UPDATE RESTRICT)
+ERROR - 2023-02-15 21:40:01 --> Cannot delete or update a parent row: a foreign key constraint fails (`db_cafe`.`venta`, CONSTRAINT `venta_ibfk_1` FOREIGN KEY (`idpersona`) REFERENCES `persona` (`idpersona`) ON DELETE RESTRICT ON UPDATE RESTRICT)

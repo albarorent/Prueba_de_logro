@@ -1,0 +1,11 @@
+CRITICAL - 2022-06-02 14:44:33 --> Undefined variable $data
+#0 C:\xampp\htdocs\proyecto_ci\app\Views\welcome_message.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 222)
+#1 C:\xampp\htdocs\proyecto_ci\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\proyecto_ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\proyecto_ci\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#4 C:\xampp\htdocs\proyecto_ci\app\Controllers\Home.php(13): view('welcome_message', Array)
+#5 C:\xampp\htdocs\proyecto_ci\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\proyecto_ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\proyecto_ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto_ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
